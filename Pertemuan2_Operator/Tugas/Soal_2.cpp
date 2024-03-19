@@ -1,9 +1,12 @@
 #include <iostream>
 #include <cmath>//untuk dapat menggunakan sqrt
+#include <iomanip>//setprecision
 using namespace std;
 
 int main () {
     system ("cls");
+
+    cout << fixed << setprecision (2);
 
     cout << "Progarm Menghitung Nilai Akar-Akar Persamaan Kuadrat dengan Rumus ABC\n";
     cout << "=====================================================================\n";

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main () {
@@ -17,6 +18,9 @@ int main () {
     const float phi = 3.14;
     char pilihan;
     cin >> pilihan;
+
+    cout << fixed << setprecision(3);
+
 
     switch (pilihan)
     {
