@@ -15,8 +15,7 @@ int main() {
     
     int terhapus;
     for (auto c : kalimat) {
-        c = tolower (c);
-        if (c != huruf) {
+        if (c != (toupper(huruf)) && c != tolower(huruf) ) {
             cout << c;
         }
         else {

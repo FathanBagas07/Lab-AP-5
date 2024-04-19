@@ -13,7 +13,8 @@ int main() {
     int interval;
     cin >> interval;
 
-    string kabisat;
+    if (tahun >= 1000 && tahun <= 9000 && interval >= (-tahun) && interval <= (9999-tahun)) {
+        string kabisat;
     if (interval > 0) {
         for (int i = 0; i<=interval ; i++) {
             int tahun_seterusnya = tahun + i;
@@ -46,6 +47,10 @@ int main() {
                 kabisat = "Bukan Kabisat";
             }
         cout << tahun << " " << kabisat;
+    }
+    }
+    else {
+        cout << "Inputan Anda Salah";
     }
     return 0;
 }

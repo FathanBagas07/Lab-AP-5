@@ -9,7 +9,8 @@ int main() {
     int n;
     cin >> n;
 
-    string kata="Hore!";
+    if (n >= 1 && n <= 10000) {
+        string kata="Hore!";
     for (auto c: kata) {
         if (c=='o') {
             int i=0;
@@ -41,6 +42,9 @@ int main() {
             cout << c;
         }
     }
-    
+    }
+    else {
+        cout << "Inputan Anda Di Luar Jangkauan";
+    }
     return 0;
 }
