@@ -131,7 +131,7 @@ int main () {
 
         float volume = (0.5 * alas * tinggi_alas) * tinggi_prisma;
         cout << "Volume              = " << volume << endl;
-        break;
+        break;q
     }
     
     default: cout << "Input Anda Salah\n";break;
