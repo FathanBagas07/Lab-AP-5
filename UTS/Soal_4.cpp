@@ -17,14 +17,16 @@ int main() {
     }
 
     for (int i = 0; i < tinggi; i++) {
-        for (int j = (tinggi / 2 + 1); j > (0 + i); j--) {
+        if (i <= tinggi / 2 + 1) {
+            for (int j = (tinggi / 2 + 1); j > (0 + i); j--) {
             cout << " ";
+            }
+            for (int k = 0; k < i; i++) {
+                    cout << "* ";
+            }
+             cout << endl;
         }
-        for (int k = 0; k < i; i++) {
-                cout << "* ";
-        }
-        cout << endl;
-        if (i > tinggi / 2 + 1) {
+        else if (i > tinggi / 2 + 1) {
             for (int l = 0; l < tinggi / 2 + 1; l++) {
                 for (int m = 0; m <= l; m++) {
                     cout << " ";

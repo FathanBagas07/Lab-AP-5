@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Lab AP 5/Pertemuan4_Perulangan/Tugas",
-      "program": "d:/Lab AP 5/Pertemuan4_Perulangan/Tugas/build/Debug/outDebug",
+      "cwd": "d:/Lab AP 5",
+      "program": "d:/Lab AP 5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
